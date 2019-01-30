@@ -1,0 +1,201 @@
+body {background-image: url(background.jpg);}
+
+li {display: inline;}
+
+ul.f {
+  text-align: center;
+}
+
+button {font: bold 20px Arial;
+        text-decoration: none;
+        background-color: #EEEEEE;
+        color: #333333;
+        padding: 15px 32px;
+        border-top: 1px solid #CCCCCC;
+        border-right: 1px solid #333333;
+        border-bottom: 1px solid #333333;
+        border-left: 1px solid #CCCCCC;
+        width: 15%;
+}
+
+button:hover {border-top-color: #28597a;
+              background: #28597a;
+              color: #ccc;
+}
+
+button:active {border-top-color: #1b435e;
+               background: #1b435e;
+}
+
+div.header {padding: 0px;
+            font-size: 28px;
+            font-weight: normal;
+            text-align: center;
+            color: #fff;
+
+}
+
+div.form {width: 400px;
+           margin: 100px auto;
+           font-size: 16px;
+           background: #ebebeb;
+           padding: 16px;
+
+}
+
+div.footer {
+    position: relative;
+    clear: both;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+input, select {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  padding: 16px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 0.95em;
+}
+
+input[type="text"], input[type="password"], select {
+  background: #fff;
+  border-color: #bbb;
+  color: #555;
+}
+
+input[type="submit"], input[type="button"]{
+  background: #4d4d4d;
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background: #17c;
+}
+
+input[type="button"]:hover {
+  background: #17c;
+}
+
+#err {
+  color: white;
+  text-align: center;
+}
+
+#errl {
+  color: white;
+  text-align: right;
+  padding-right: 100px;
+}
+
+#err2 {
+  color: white;
+  text-align: center;
+  padding-bottom: 400px;
+}
+
+p#re {
+  color: white;
+  text-align: center;
+  font-size: 24px;
+}
+
+p#re2 {
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  padding-bottom: 300px;
+}
+
+p#re5 {
+  color: white;
+  text-align: center;
+  font-size: 36px;
+  padding-top: 175px;
+  padding-bottom: 275px;
+}
+
+a:link,
+a:visited {
+  color: #d0d0e1;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  color: red;
+  text-decoration: none;
+}
+
+h1#title {
+  font-size: 40px;
+  color: white;
+  font-family: serif;
+  text-align: center;
+}
+
+img {
+  width: 700px;
+  height: 500px;
+  float: left;
+}
+
+div.img {
+  padding: 20px 20px;
+}
+
+.prez {
+  color: white;
+  font-size: 27px;
+  padding: 10px 20px 10px 500px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+img.camera {
+  width: 400px;
+  height: 300px;
+  padding-left: 30px;
+}
+
+img.rezer {
+  width: 600px;
+  height: 500px;
+  padding-left: 30px;
+}
+
+p.rezer {
+  color: white;
+  font-size: 36px;
+  padding-left: 700px;
+  padding-right: 50px;
+  padding-top: 100px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+p.h {
+    color: white;
+    font-size: 22px;
+    padding-left: 750px;
+    padding-right: 50px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+div.cont {
+      padding: 20px;
+}
+
+div.cam {
+      padding: 20px;
+}
+
+/*orlando 2017*/
